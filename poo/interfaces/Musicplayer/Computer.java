@@ -1,4 +1,4 @@
-package poo.interfaces;
+package poo.interfaces.Musicplayer;
 
 public class Computer implements VideoPlayer, MusicPlayer {
     @Override
