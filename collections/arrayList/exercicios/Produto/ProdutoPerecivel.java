@@ -1,4 +1,4 @@
-package collections.arrayList.Produto;
+package collections.arrayList.exercicios.Produto;
 
 public class ProdutoPerecivel extends Produto{
 

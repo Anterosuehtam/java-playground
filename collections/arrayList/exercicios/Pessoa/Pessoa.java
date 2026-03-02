@@ -1,4 +1,4 @@
-package collections.arrayList.Pessoa;
+package collections.arrayList.exercicios.Pessoa;
 
 public class Pessoa {
     private String nome;

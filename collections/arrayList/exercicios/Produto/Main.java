@@ -10,7 +10,7 @@ Crie uma classe ProdutoPerecivel que herde de Produto. Adicione um atributo data
 o construtor da classe mãe (super) para inicializar os atributos herdados. Crie um objeto ProdutoPerecivel e imprima seus valores.
 * */
 
-package collections.arrayList.Produto;
+package collections.arrayList.exercicios.Produto;
 
 import java.util.ArrayList;
 

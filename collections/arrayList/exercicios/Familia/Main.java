@@ -1,4 +1,4 @@
-package collections.arrayList.Familia;
+package collections.arrayList.exercicios.Familia;
 
 import java.util.ArrayList;
 import java.util.List;

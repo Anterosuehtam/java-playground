@@ -1,4 +1,4 @@
-package collections.arrayList.Pessoa;
+package collections.arrayList.exercicios.Pessoa;
 
 import java.util.ArrayList;
 
