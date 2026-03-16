@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Insira o nome do livro que deseja obter informações: ");
         var busca = scanner.nextLine();
 
-        var endereco = "https://www.googleapis.com/books/v1/volumes?q=" + busca + "&key=AIzaSyCCBwAjCkUUG5w1z2MFtMC2dPY-2dQb8Ts";
+        var endereco = "https://www.googleapis.com/books/v1/volumes?q=" + busca.replace(" ", "+") + "&key=AIzaSyCCBwAjCkUUG5w1z2MFtMC2dPY-2dQb8Ts";
 
         // Criando um objeto da classe HttpClient
         HttpClient client = HttpClient.newHttpClient();
@@ -25,6 +25,7 @@ public class Main {
         HttpRequest request = HttpRequest.newBuilder().uri(URI.create(endereco)).build();
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
-        System.out.println(response.body());
+        String json = response.body();
+        System.out.println(json);
     }
 }

@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Insira o nome de uma receita: ");
         String receita = scanner.nextLine();
 
-        String endereco = "https://www.themealdb.com/api/json/v1/1/search.php?s=" + receita;
+        String endereco = "https://www.themealdb.com/api/json/v1/1/search.php?s=" + receita.replace(" ", "+");
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder().uri(URI.create(endereco)).build();

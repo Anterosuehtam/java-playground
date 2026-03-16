@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Insira uma criptomoeda para exibir a cotação atual: ");
         String criptoNome = scanner.nextLine();
 
-        String endereco = "https://api.coingecko.com/api/v3/simple/price?ids=" + criptoNome + "&vs_currencies=usd";
+        String endereco = "https://api.coingecko.com/api/v3/simple/price?ids=" + criptoNome.replace(" ", "+") + "&vs_currencies=usd";
 
         // Criando um objeto da classe HttpClient
         HttpClient client = HttpClient.newHttpClient();
