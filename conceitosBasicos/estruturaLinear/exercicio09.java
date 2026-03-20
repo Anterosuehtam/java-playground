@@ -12,7 +12,7 @@ Imprima o resultado na tela. Saída esperada:
 A média das notas é: 8.166666666666666
 
 */
-public class exercio09 {
+public class exercicio09 {
     static void main(String[] args) {
         double nota1 = 7.5;
         double nota2 = 8.0;

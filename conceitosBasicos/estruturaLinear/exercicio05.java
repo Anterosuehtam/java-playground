@@ -1,6 +1,6 @@
 package conceitosBasicos.estruturaLinear;
 
-public class Exercicio05 {
+public class exercicio05 {
     public static void main (String[] args) {
         double media = (10.0 + 5.0) / 2;
         System.out.println(media);
