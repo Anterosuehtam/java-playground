@@ -1,4 +1,4 @@
-package conceitosBasicos.exerciciosDiversos;
+package conceitosBasicos.estruturaCondicional;
 
 import java.util.Scanner;
 

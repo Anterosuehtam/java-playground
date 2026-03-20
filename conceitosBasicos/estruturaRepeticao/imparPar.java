@@ -1,4 +1,4 @@
-package conceitosBasicos.exerciciosDiversos;
+package conceitosBasicos.estruturaRepeticao;
 
 import java.util.Scanner;
 
