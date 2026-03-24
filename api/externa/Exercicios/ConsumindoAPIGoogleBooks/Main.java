@@ -1,4 +1,4 @@
-package Api.Exercicios.ConsumindoAPIGoogleBooks;
+package api.externa.Exercicios.ConsumindoAPIGoogleBooks;
 
 import java.io.IOException;
 import java.net.URI;

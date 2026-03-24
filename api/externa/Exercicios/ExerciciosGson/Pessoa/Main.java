@@ -1,4 +1,4 @@
-package Api.Exercicios.ExerciciosGson.Pessoa;
+package api.externa.Exercicios.ExerciciosGson.Pessoa;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

@@ -1,4 +1,4 @@
-package Api.Exercicios.ConsumindoAPITheMealDB;
+package api.externa.Exercicios.ConsumindoAPITheMealDB;
 
 import java.io.IOException;
 import java.net.URI;

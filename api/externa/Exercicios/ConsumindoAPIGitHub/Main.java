@@ -1,4 +1,4 @@
-package Api.Exercicios.ConsumindoAPIGitHub;
+package api.externa.Exercicios.ConsumindoAPIGitHub;
 
 import java.io.IOException;
 import java.net.URI;

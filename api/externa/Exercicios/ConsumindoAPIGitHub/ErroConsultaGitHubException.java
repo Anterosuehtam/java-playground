@@ -1,4 +1,4 @@
-package Api.Exercicios.ConsumindoAPIGitHub;
+package api.externa.Exercicios.ConsumindoAPIGitHub;
 
 public class ErroConsultaGitHubException extends RuntimeException{
 
