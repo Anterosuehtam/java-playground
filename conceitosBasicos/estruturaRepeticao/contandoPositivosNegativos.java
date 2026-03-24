@@ -12,26 +12,26 @@ e que pare quando o número "fim" for digitado.
 public class contandoPositivosNegativos {
     static void main(String[] args) {
         Scanner scanner  = new Scanner(System.in);
+
         int positivos = 0;
         int negativos = 0;
 
-        while(true) {
-            System.out.print("Digite um número (ou 'fim' para encerrar): ");
+        while (true){
+            System.out.println("Digite um número: (digite 'sair' para finalizar o programa)");
             String entrada = scanner.nextLine();
 
-            if (entrada.equals("fim")) {
+            if (entrada.equalsIgnoreCase("sair")){
                 break;
             }
 
-            int numero = Integer.parseInt(entrada);
-            if (numero > 0) {
-                positivos++;
-            } else if (numero < 0) {
-                negativos++;
+            int num = Integer.parseInt(entrada);
+            if (num >= 0){
+                positivos ++;
+            } else {
+                negativos ++;
             }
         }
-
-        System.out.println("Números positivos: " + positivos);
-        System.out.println("Números negativos: " + negativos);
+        System.out.println("Total de números positivos: " + positivos);
+        System.out.println("Total de números negativos: " + negativos);
     }
 }
