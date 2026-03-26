@@ -1,0 +1,24 @@
+package poo.classes.exercicios.ControleSaldoBancario;
+/*Você está desenvolvendo um sistema para um banco digital. Os clientes precisam confiar
+que suas transações serão seguras e que o sistema nunca permitirá que eles gastem mais do
+que possuem em conta. Seu desafio é garantir essa segurança nas operações financeiras de depositar e sacar.
+
+Crie uma classe que:
+
+- Permita criar contas com titular e saldo inicial.
+- Realize depósitos com valores positivos.
+Autorize saques apenas quando houver saldo suficiente.
+Exiba o saldo atualizado após cada operação.
+
+*/
+public class Main {
+    static void main(String[] args) {
+        Conta conta = new Conta("Matheus", 5000.00);
+
+        conta.exibirSaldo();
+        conta.depositar(500);
+        conta.exibirSaldo();
+        conta.sacar(5500);
+        conta.exibirSaldo();
+    }
+}
