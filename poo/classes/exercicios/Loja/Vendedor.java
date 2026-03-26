@@ -1,6 +1,4 @@
-package conceitosBasicos.exerciciosDiversos.loja;
-
-import conceitosBasicos.exerciciosDiversos.loja.Usuario;
+package poo.classes.exercicios.Loja;
 
 public class Vendedor extends Usuario {
     private int quantidadeVendas;

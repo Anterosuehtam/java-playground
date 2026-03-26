@@ -1,4 +1,4 @@
-package conceitosBasicos.exerciciosDiversos.animais;
+package poo.classes.exercicios.Animais;
 
 public class Main {
     static void main(String[] args) {

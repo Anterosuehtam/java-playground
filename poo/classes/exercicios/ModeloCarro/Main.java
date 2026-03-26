@@ -1,4 +1,4 @@
-package conceitosBasicos.exerciciosDiversos.modeloCarro;
+package poo.classes.exercicios.ModeloCarro;
 
 public class Main {
    public static void main() {

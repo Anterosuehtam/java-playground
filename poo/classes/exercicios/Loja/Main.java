@@ -1,4 +1,4 @@
-package conceitosBasicos.exerciciosDiversos.loja;
+package poo.classes.exercicios.Loja;
 
 public class Main {
     public static void main (String[] args) {

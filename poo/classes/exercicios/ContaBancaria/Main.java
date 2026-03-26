@@ -1,4 +1,4 @@
-package conceitosBasicos.exerciciosDiversos.contaBancaria;
+package poo.classes.exercicios.ContaBancaria;
 
 import java.util.Scanner;
 

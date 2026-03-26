@@ -1,4 +1,4 @@
-package conceitosBasicos.exerciciosDiversos.loja;
+package poo.classes.exercicios.Loja;
 
 public class Atendente extends Usuario {
 

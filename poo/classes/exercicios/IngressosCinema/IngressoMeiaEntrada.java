@@ -1,4 +1,4 @@
-package conceitosBasicos.exerciciosDiversos.ingressosCinema;
+package poo.classes.exercicios.IngressosCinema;
 
 public class IngressoMeiaEntrada extends Ingresso{
 
