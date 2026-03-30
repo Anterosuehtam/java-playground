@@ -1,6 +1,5 @@
-package api.interna.datas.Exercicios;
+package api.interna.datas.exercicios;
 
-import javax.swing.text.DateFormatter;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 

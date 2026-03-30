@@ -1,8 +1,6 @@
-package api.interna.datas.Exercicios;
+package api.interna.datas.exercicios;
 
-import java.time.Duration;
 import java.time.LocalDate;
-import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 /*Você é responsável pelos projetos em uma empresa de desenvolvimento de software.

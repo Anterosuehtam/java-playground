@@ -1,4 +1,4 @@
-package api.interna.datas.Exercicios;
+package api.interna.datas.exercicios;
 
 import java.time.ZoneId;
 import java.time.ZonedDateTime;

@@ -1,4 +1,4 @@
-package api.interna.datas.Exercicios;
+package api.interna.datas.exercicios;
 /*Você trabalha no setor de tecnologia de uma empresa que gera relatórios diários.
 Esses relatórios incluem informações como transações realizadas, atualizações de
 pedidos e registros de atendimento ao cliente. A equipe responsável pela análise
