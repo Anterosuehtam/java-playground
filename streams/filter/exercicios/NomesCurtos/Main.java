@@ -19,7 +19,7 @@ public class Main {
         List<String> funcionarios = List.of("Ana", "Bruno", "Carlos", "Amanda", "Alice", "Daniel", "Caroline");
 
         List<String> nomesCurtos = funcionarios.stream()
-                .filter(nome -> nome.length() <= 3)
+                .filter(nome -> nome.length() <= 5)
                 .collect(Collectors.toList());
 
         System.out.println(nomesCurtos);
