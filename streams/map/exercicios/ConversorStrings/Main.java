@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Main {
     static void main(String[] args) {
-        List<String> palavras = Arrays.asList("Java", "Stream", "Lambda");
+        List<String> palavras = Arrays.asList("java", "stream", "lambda");
 
         palavras.stream()
                 .map(String::toUpperCase)
