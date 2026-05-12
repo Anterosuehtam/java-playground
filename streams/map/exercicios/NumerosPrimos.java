@@ -1,10 +1,10 @@
-package streams.map.exercicios.NumerosPrimos;
+package streams.map.exercicios;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Main {
+public class NumerosPrimos {
     static void main(String[] args) {
             List<List<Integer>> listaDeNumeros = Arrays.asList(
                     Arrays.asList(1, 2, 3, 4),
@@ -14,7 +14,7 @@ public class Main {
 
             List<Integer> numerosPrimos = listaDeNumeros.stream()
                     .flatMap(List::stream)  // Achatar as sublistas em uma única stream
-                    .filter(Main::ehPrimo)  // Filtrar apenas números primos
+                    .filter(NumerosPrimos::ehPrimo)  // Filtrar apenas números primos
                     .sorted()               // Ordenar em ordem crescente
                     .collect(Collectors.toList()); // Coletar em uma lista
 

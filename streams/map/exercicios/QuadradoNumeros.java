@@ -1,4 +1,4 @@
-package streams.map.exercicios.QuadradoNumeros;
+package streams.map.exercicios;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -13,7 +13,7 @@ Criar uma nova lista contendo os resultados.
 Exibir a lista de quadrados no console.
 
 */
-public class Main {
+public class QuadradoNumeros {
     static void main(String[] args) {
         List<Integer> numeros = List.of(2, 3, 5, 7, 11);
 

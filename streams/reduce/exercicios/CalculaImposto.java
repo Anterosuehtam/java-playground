@@ -1,4 +1,4 @@
-package streams.reduce.exercicios.CalculaImposto;
+package streams.reduce.exercicios;
 
 import java.util.List;
 
@@ -15,7 +15,7 @@ Calcule o valor do imposto (8%) sobre o total.
 Exiba o valor total antes e depois da aplicação do imposto, com duas casas decimais.
 
 */
-public class Main {
+public class CalculaImposto {
     static void main(String[] args) {
         List<Double> precosProdutos = List.of(29.99, 49.50, 15.75, 99.99);
 

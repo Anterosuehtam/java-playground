@@ -1,4 +1,4 @@
-package streams.reduce.exercicios.CalculaMedia;
+package streams.reduce.exercicios;
 
 import java.util.List;
 /*Você deseja analisar as notas dos alunos e alunas em uma disciplina
@@ -10,7 +10,7 @@ Utilizar reduce() para calcular a soma total das notas.
 Calcular a média das notas.
 Determinar a menor e a maior nota da lista. Dica: use a função max e min da classe Stream.
 Exibir os resultados no console.*/
-public class Main {
+public class CalculaMedia {
     static void main(String[] args) {
 
         List<Double> notas = List.of(7.5, 8.0, 6.5, 9.0, 10.0);

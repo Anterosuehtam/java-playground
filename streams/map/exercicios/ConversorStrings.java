@@ -1,9 +1,9 @@
-package streams.map.exercicios.ConversorStrings;
+package streams.map.exercicios;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class Main {
+public class ConversorStrings {
     static void main(String[] args) {
         List<String> palavras = Arrays.asList("java", "stream", "lambda");
 
