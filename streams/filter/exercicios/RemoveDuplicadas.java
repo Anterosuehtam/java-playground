@@ -1,10 +1,10 @@
-package streams.filter.exercicios.RemoveDuplicadas;
+package streams.filter.exercicios;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Main {
+public class RemoveDuplicadas {
     static void main(String[] args) {
         List<String> palavras = Arrays.asList("apple", "banana", "apple", "orange", "banana");
 

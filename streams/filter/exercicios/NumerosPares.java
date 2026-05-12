@@ -1,9 +1,9 @@
-package streams.filter.exercicios.NumerosPares;
+package streams.filter.exercicios;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class Main {
+public class NumerosPares {
     static void main(String[] args) {
         List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5, 6);
 

@@ -1,4 +1,4 @@
-package streams.filter.exercicios.NomesCurtos;
+package streams.filter.exercicios;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -14,7 +14,7 @@ Criar uma lista contendo os nomes filtrados.
 Exibir a lista filtrada no console.
 
 */
-public class Main {
+public class NomesCurtos {
     static void main(String[] args) {
         List<String> funcionarios = List.of("Ana", "Bruno", "Carlos", "Amanda", "Alice", "Daniel", "Caroline");
 
