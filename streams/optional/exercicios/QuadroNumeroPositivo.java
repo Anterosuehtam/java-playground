@@ -1,4 +1,4 @@
-package streams.optional;
+package streams.optional.exercicios;
 
 import java.util.Optional;
 

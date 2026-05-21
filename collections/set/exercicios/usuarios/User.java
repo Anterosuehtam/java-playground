@@ -1,4 +1,4 @@
-package collections.set.exercicios;
+package collections.set.exercicios.usuarios;
 
 import java.util.Objects;
 
