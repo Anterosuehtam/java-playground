@@ -26,11 +26,9 @@ public class Main {
 
         System.out.println("\nMostrando apenas produtos DISPONÍVEIS");
         //Mostrando apenas os produtos disponíveis
-        for (Produto produto : produtos){
-            if (produto.isDisponivel()) {
-                System.out.println(produto);
-            }
-        }
+        produtos.stream()
+                        .filter(Produto::isDisponivel)
+                                .forEach(System.out::println);
 
         System.out.println("\nMostrando apenas PERIFÉRICOS");
         //Mostrando apenas os produtos da categoria Periféricos
