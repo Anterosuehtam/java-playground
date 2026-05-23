@@ -100,17 +100,15 @@ public class Main {
 
         //Ordenando a lista do menor para o maior valor
         System.out.println("\nLista ordenada de forma crescente: ");
-        produtos.sort(Comparator.comparing(Produto::getPreco));
-        for (Produto produto : produtos) {
-            System.out.println(produto);
-        }
+        produtos.stream()
+                .sorted(Comparator.comparing(Produto::getPreco))
+                .forEach(System.out::println);
 
         //Ordenando a lista do maior para o menor valor
         System.out.println("\nLista ordenada de forma decrescente: ");
-        produtos.sort(Comparator.comparing(Produto::getPreco).reversed());
-        for (Produto produto : produtos) {
-            System.out.println(produto);
-        }
+        produtos.stream()
+                .sorted(Comparator.comparing(Produto::getPreco).reversed())
+                .forEach(System.out::println);
 
     }
 }
