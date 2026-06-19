@@ -17,10 +17,10 @@ public class DivisaoNumeros {
 
         try {
             int divisao = numerador / divisor;
-            System.out.println("Resultado da divisão: " + divisao);
+            System.out.println("O Resultado da divisão é: " + divisao);
 
         } catch (ArithmeticException e) {
-                System.out.println("Erro: Divisão por zero não permitida.");
+                System.out.println("Erro: Não é possível dividir por 0.");
         }
     }
 }
