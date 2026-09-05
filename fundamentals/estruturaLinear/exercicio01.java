@@ -8,7 +8,7 @@ public class exercicio01 {
     public static void  main(String[] args) {
         Scanner scanner =  new Scanner(System.in);
         System.out.print("Digite seu nome: \n");
-        String nome = scanner.next();
+        String nome = scanner.nextLine();
         System.out.print("Digite digite o ano de seu nascimento: \n");
         int ano = scanner.nextInt();
         int idadeAtual = OffsetDateTime.now().getYear() - ano;
